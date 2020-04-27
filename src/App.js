@@ -28,10 +28,7 @@ function App() {
   //Funcion que tome las citas actuales y agregue la nueva
 
   const crearCita = cita => {
-    guardarCitas([
-      ...citas,
-      cita
-    ])    
+    guardarCitas([...citas, cita])    
   }
 
   //Funcion que elimina una cita por su id
